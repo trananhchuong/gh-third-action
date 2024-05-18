@@ -1,0 +1,10 @@
+
+name: Check when deploy
+on: issues
+jobs:
+    output-info:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Output event detail
+              run: echo "${{ toJson(github.event) }}"
+    
