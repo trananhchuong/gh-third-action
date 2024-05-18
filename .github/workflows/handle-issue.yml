@@ -1,5 +1,5 @@
 
-name: Check when deploy
+name: Handle issues
 on: issues
 jobs:
     output-info:
